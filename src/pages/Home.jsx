@@ -73,8 +73,8 @@ const Home = () => {
             <button onClick={() => setSearchTerm('ice-cream')} type="button"
                     className="text-gray-900 border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3">ice-cream
             </button>
-            <button onClick={() => setSearchTerm('Beach')} type="button"
-                    className="text-gray-900 border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3">Beach
+            <button onClick={() => setSearchTerm('Holi')} type="button"
+                    className="text-gray-900 border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3">Holi
             </button>
             <button onClick={() => setSearchTerm('Forest')} type="button"
                     className="text-gray-900 border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3">Forest

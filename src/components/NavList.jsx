@@ -7,6 +7,10 @@ const NavList = () => {
       link: "/food",
     },
     {
+      name: "Snow",
+      link: "/snow",
+    },
+    {
       name: "Ice-cream",
       link: "/ice-cream",
     },

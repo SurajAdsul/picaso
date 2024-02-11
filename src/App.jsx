@@ -9,7 +9,7 @@ import ImageContextProvider from "./context/ImageContext.jsx";
 function App() {
   return (
     <ImageContextProvider>
-      <Router basename="picaso">
+      <Router basename="/picaso">
         <div className="container mx-auto my-28">
           <div className="mx-40">
             <Header />

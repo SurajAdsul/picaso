@@ -4,27 +4,27 @@ const NavList = () => {
   const buttons = [
     {
       name: "Food",
-      link: "food",
+      link: "/food",
     },
     {
       name: "Ice-cream",
-      link: "ice-cream",
+      link: "/ice-cream",
     },
     {
       name: "Holi",
-      link: "holi",
+      link: "/holi",
     },
     {
       name: "Concert",
-      link: "concert",
+      link: "/concert",
     },
     {
       name: "Forest",
-      link: "forest",
+      link: "/forest",
     },
     {
       name: "Portrait",
-      link: "portrait",
+      link: "/portrait",
     },
   ];
 

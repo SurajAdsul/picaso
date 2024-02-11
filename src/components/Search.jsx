@@ -4,7 +4,8 @@ import {useNavigate} from "react-router-dom";
 const Search = () => {
     const [value, setValue] = useState("");
     let navigate = useNavigate();
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
         navigate(`/${value}`);
     }
 

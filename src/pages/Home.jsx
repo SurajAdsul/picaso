@@ -5,6 +5,7 @@ import {ImageContext} from "../context/ImageContext.jsx";
 const Home = () => {
     const {slug} = useParams();
     const {setSearchTerm} = useContext(ImageContext);
+    setSearchTerm(slug);
     let navigate = useNavigate();
     useEffect(() => {
         if (slug && slug !== 'mountains') {

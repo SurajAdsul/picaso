@@ -27,7 +27,7 @@ const NavList = () => {
         <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
             {buttons.map(({name, link}) => {
                 return (<NavLink to={link} key={name} className={({isActive}) => (isActive ?
-                        'mx-6 text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3'
+                        'mx-6 text-indigo-700 hover:text-white border border-indigo-600 bg-white hover:bg-indigo-700 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3'
                         : 'mx-6 text-gray-900 border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3'
                 )}>
                     {name}

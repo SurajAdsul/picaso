@@ -40,9 +40,10 @@ Used TailwindCSS for styling the elements.
 To run the project in your local environment, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Run `yarn install` or `npm` in the project directory to install the required dependencies.
-3. Run `yarn dev` or `npm dev` to get the project started.
-4. Open [http://localhost:5173/picaso/#/gallery/mountains](http://localhost:5173/picaso/#/gallery/mountains) in your web
+2. Generate an API key from [Unsplash](https://unsplash.com/) and rename `.env.sample` to `.env` and put over there.
+3. Run `yarn install` or `npm i` in the project directory to install the required dependencies.
+4. Run `yarn dev` or `npm dev` to get the project started.
+5. Open [http://localhost:5173/picaso/#/gallery/mountains](http://localhost:5173/picaso/#/gallery/mountains) in your web
    browser to view the app.
 
 ## 🍿 Video

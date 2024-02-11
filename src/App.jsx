@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound.jsx";
 import Header from "./components/Header.jsx";
 import Gallery from "./components/Gallery.jsx";
-import Search from "./components/Search.jsx";
 import ImageContextProvider from "./context/ImageContext.jsx";
-import NavList from "./components/NavList.jsx";
 
 function App() {
   return (

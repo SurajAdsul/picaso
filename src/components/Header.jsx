@@ -1,8 +1,15 @@
+import Search from "./Search.jsx";
+import NavList from "./NavList.jsx";
+import Logo from "./Logo.jsx";
+
 const Header = () => {
-    return (
-        <h1 className="flex justify-center text-7xl italic font-bold my-10 font-lobster tracking-wider mb-16 text-indigo-700">
-            <a href="/picaso/mountains">Picaso</a>
-        </h1>);
-}
+  return (
+    <div>
+      <Logo />
+      <Search />
+      <NavList />
+    </div>
+  );
+};
 
 export default Header;

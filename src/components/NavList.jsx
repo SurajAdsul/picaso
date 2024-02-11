@@ -33,7 +33,7 @@ const NavList = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
+    <div className="flex flex-col md:flex-row items-center justify-center py-4 md:py-8 flex-wrap">
       {buttons.map(({ name, link }) => {
         return (
           <NavLink

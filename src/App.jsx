@@ -11,7 +11,7 @@ function App() {
     <ImageContextProvider>
       <Router basename="/gallery">
         <div className="container mx-auto my-28">
-          <div className="mx-40">
+          <div className="mx-4 md:mx-40">
             <Header />
             <Routes>
               <Route path="/" element={<Home />}>
